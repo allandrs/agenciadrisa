@@ -28,8 +28,8 @@ export default () => {
 		    infiniteLoop={true}
       >
         <CardCarousel img={Delivery} link={'https://allandrs.github.io/delivery_bebidas/'}/>
-        <CardCarousel img={Portfolio} link={'https://allandrs.github.io/portfolio-html-css/'}/>
-        <CardCarousel img={PSG} link={'https://allandrs.github.io/site-futebol/'}/>
+        {/* <CardCarousel img={Portfolio} link={'https://allandrs.github.io/portfolio-html-css/'}/> */}
+        {/* <CardCarousel img={PSG} link={'https://allandrs.github.io/site-futebol/'}/> */}
         <CardCarousel img={Finances} link={'https://allandrs.github.io/sistema-controle-financeiro/'}/>
         <CardCarousel img={Dark} link={'https://allandrs.github.io/tela-login-dark/'}/>
       </ItemsCarousel>
