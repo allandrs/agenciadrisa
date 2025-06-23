@@ -14,8 +14,8 @@ const About = forwardRef((props, ref) => {
 
     return (
         <>
-            <div id="about" className="flex h-[950px] md:h-[600px] bg-[#0b112b]" ref={compRef}> 
-                <div className="mx-8 flex flex-col md:flex-row justify-center text-left">
+            <div id="about" className="flex h-[950px]  md:h-[600px] bg-[#0b112b]" ref={compRef}> 
+                <div className="mx-auto px-8 w-[1440px] flex flex-col md:flex-row text-left">
                     
                     <div className="md:w-1/2 flex flex-col justify-center pt-2">  
                         <div>

@@ -5,7 +5,7 @@ import "../style/header.css";
 import DropDownMenu from "./dropdownmenu.jsx";
 
 //images
-import Logo from "../../public/drisa_logo.png";
+import Logo from "../../public/LOGODRISA.png";
 import softdeveloper from "../../public/software-developer-6521720-croped.jpg";
 import verticalsdeveloper from "../../public/software-developer-6521720-vertical.jpg";
 import freela from "../../public/freelance-work-7308505_1920-croped.png";
@@ -33,9 +33,14 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="bg-[#0b112b] relative min-h-[440px] md:min-h-[600px] w-full ">
+        <div className="bg-[#0b112b] relative min-h-[440px] md:min-h-[600px] w-full place-items-center">
+          <img
+              src={softdeveloper}
+              className="absolute img-header opacity-[.2] invisible md:visible "
+              alt=""
+            />
 
-          <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative  justify-between shadow-2xl items-center bg-contain border-none">
+          <div className="flex max-w-[1440px] w-full mx-auto h-15 relative  px-4 py-2 justify-between shadow-2xl items-center bg-contain border-none">
             
             <a href="/" className="flex-initial ml-1 md:ml-3">
               <img
@@ -119,12 +124,8 @@ const Header = () => {
 
           </div>
 
-          <div className="divHeader w-full h-full relative ">
-            <img
-              src={softdeveloper}
-              className="absolute img-header opacity-[.2] invisible md:visible"
-              alt=""
-            />
+          <div className="divHeader max-w-[1440px] w-full mx-auto h-full relative">
+
             <img
               src={verticalsdeveloper}
               className="absolute img-header opacity-[.2] visible md:invisible h-96"
@@ -135,8 +136,8 @@ const Header = () => {
               className="absolute opacity-[.8] right-20 top-16 invisible md:visible"
               alt=""
             />
-            <div className="flex absolute  mx-4 md:mx-8 mt-14">
-              <div className="container-copy  ml-[98px] md:ml-[19rem] w-[215px] md:w-[40rem]">
+            <div className="flex absolute  mx-0 md:mx-8 mt-24">
+              <div className="container-copy  ml-[128px] md:ml-[19rem] w-[215px] md:w-[40rem]">
                 <div className="w-full">
                   <h1 className="text box-h1-decoration-clone  text-xl md:text-2xl text-white transition   font-extrabold">
                     <span className="whitespace-nowrap">Na DRISA, criamos <span className=" text-[#06d2dd] ">sites e </span></span> <span className=" whitespace-nowrap  text-[#06d2dd]">lojas virtuais </span>

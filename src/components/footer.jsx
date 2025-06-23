@@ -3,7 +3,7 @@ import React from "react";
 
 import "../style/chatbox.css";
 
-import Logo from "../../public/drisa_logo.png";
+import Logo from "../../public/LOGODRISA.png";
 import Wpp from "../../public/whatsapp.png";
 import Instagram from "../../public/instagram.png";
 import Facebook from "../../public/facebook.png";
